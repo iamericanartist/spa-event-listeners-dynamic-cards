@@ -7,20 +7,25 @@
 	<link rel="stylesheet" href="cards.css">
 </head>
 <body>
-
-
-
-
-
-
-
-	<hr/>
-	<h1>Instructions</h1>
+	<h1>Dynamic Cards Exercise</h1>
+	<h3>Instructions</h3>
 	<ol>
 		<li>Create an HTML page that contains a text area and a button labeled Create.</li>
 		<li>When the user enters in text into the text area and then clicks the create button, create a new card element in the DOM. You decide the height/width of the card.</li>
 		<li>When the user clicks the Delete button, the containing card, and no other cards, should then be removed from the DOM. Not just made invisible, actually removed from the DOM.</li>
 	</ol>
+	<hr/>
+	<div id="inputArea">
+		<div>
+			<textarea rows="2" cols="70" id="textInput" placeholder="Enter your text here..."></textarea>
+		</div>
+		<div>
+			<button id="createButton" class="buttons">Create</button>
+		</div>
+	</div>
+	<hr/>
+
+	<div id="outputArea"></div>
 
 	<script src="cards.js"></script>
 </body>

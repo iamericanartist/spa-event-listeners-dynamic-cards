@@ -1,0 +1,66 @@
+* {
+	font-family: "Open Sans", sans-serif;
+  line-height: 120%;
+  box-sizing: border-box;
+}
+html {
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(157,157,157,1) 100%)no-repeat; 
+}
+
+/* for all button styling */
+.buttons {
+
+}
+
+
+/* INPUT AREA STYLING*/
+#inputArea {
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid purple;
+	border-radius: 5px;
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(226,215,234,1) 100%);
+}
+/* not needed? */
+#textInput {
+	border-radius: 5px;
+	font-size: 15px;
+	border: 1px dotted purple;
+	background-color: rgba(255,255,255,.5);
+}
+/* FOR CREATE BUTTON ONLY */
+#createButton {
+	color: white;
+	padding: 2px 15px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: purple;
+	border: 1px solid purple;
+}
+/* CARDHOLDER AREA */
+#outputArea {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	min-height: 300px;
+	border: 2px solid rgba(226,215,234,.7);
+	background-color: #eee ;
+}
+/* OUR DYNAMICALLY CREATED CARDS */
+.domCard {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 32%;
+	margin: 0.66666%;
+	padding: 4px 15px;
+	border-radius: 5px;
+	background-color: purple;
+	border: 1px solid purple;
+	min-height: 125px;
+	display: inline-block;
+}
+
+.domCardDeleteButton {
+
+}
