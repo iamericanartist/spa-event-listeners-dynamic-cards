@@ -17,7 +17,7 @@
 	<hr/>
 	<div id="inputArea">
 		<div>
-			<textarea rows="2" cols="70" id="textInput" placeholder="Enter your text here..."></textarea>
+			<input id="textInput" size="50" name="yourinput" type="text" placeholder="Enter your text here..." autofocus>
 		</div>
 		<div>
 			<button id="createButton" class="buttons">Create</button>
@@ -25,7 +25,13 @@
 	</div>
 	<hr/>
 
-	<div id="outputArea"></div>
+
+
+	<div id="outputArea">
+		<ul id="messageOutput"> <!-- THIS IS WHERE THE CARDS GO -->
+
+		</ul>
+	</div>
 
 	<script src="cards.js"></script>
 </body>
