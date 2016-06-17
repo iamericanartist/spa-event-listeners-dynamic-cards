@@ -1,6 +1,8 @@
 # Dynamic Cards
 ## Single Page App / Event Listeners / Dynamic Cards
 
+![Dynamic Cards screenshot](dynamicCards.png?raw=true "Dynamic Cards Screenshot")
+
 ## Instructions
 
 1. Create an HTML page that contains a text area and a button labeled *Create*.
