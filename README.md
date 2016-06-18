@@ -1,7 +1,7 @@
 # Dynamic Cards
 ## Single Page App / Event Listeners / Dynamic Cards
 
-![Dynamic Cards screenshot](dynamicCards.png?raw=true "Dynamic Cards Screenshot")
+![Dynamic Cards screenshot](dynamicCards.png?raw=true "Dynamic Cards Screenshot") 
 
 ## Instructions
 
